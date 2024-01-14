@@ -68,3 +68,59 @@ html, body{
     left: 50%;
     transform: translate(-50%,0);
 }
+
+#page2{
+    min-height: 130vh;
+    width:100%;
+    padding: 100px 5vw;
+    border-bottom: 2px solid #6c6c6c;
+}
+#page2 h1{
+    font-size: 7vw;
+    font-weight: 500;
+    color:#111;
+}
+
+#page2-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+    width: 100%;
+    padding: 0 5vw;
+}
+
+#page2-left{
+    width: 38%;
+}
+
+#page2-left h2{
+    font-size: 3vw;
+    font-weight: 300;
+    color:#111;
+    line-height: 3vw;
+}
+
+#page2-right{
+    width: 24%;
+}
+
+#page2-right p{
+    font-size: 28px;
+    color:#111;
+}
+
+#page2-right button{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 4px 0;
+    background-color: #edbfff;
+    color: #111;
+    margin-top: 20px;
+}
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+}

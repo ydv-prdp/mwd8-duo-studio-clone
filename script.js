@@ -48,3 +48,19 @@ tl.to("#page1 h2",{
 tl.to("#page1 video",{
    width:"90%" 
 },"heading")
+
+
+
+var tl2 = gsap.timeline({
+    scrollTrigger:{
+        trigger:"#page1 h1",
+        scroller:"#main",
+        start:"top -115%",
+        end:"top -120%",
+        scrub:2
+
+    }
+})
+tl2.to("#main",{
+    backgroundColor:"#fff",
+})
